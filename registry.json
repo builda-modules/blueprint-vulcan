@@ -1,0 +1,39 @@
+{
+  "name": "vulcan",
+  "type": "blueprint",
+  "version": "0.0.1",
+  "author": {
+    "name": "Alex Foxleigh",
+    "builda_user": "foxleigh81"
+  },
+  "funding": "https://www.patreon.com/builda",
+  "url": "https://github.com/builda-modules/blueprint-vulcan",
+  "dependencies": {
+    "react": "^17.0.0",
+    "typescript": "^4.5.0",
+    "storybook": "^6.0.0",
+    "storybook-addon-essentials": "^6.0.0",
+    "sass": "^1.0.0"
+  },
+  "substitute": [
+    {
+      "replace": "PREFIX",
+      "required": true,
+      "with": "command"
+    },
+    {
+      "replace": "TYPE",
+      "with": "component"
+    }
+  ],
+  "keywords": [
+    "react",
+    "storybook",
+    "storybook-mdx",
+    "typescript",
+    "sass",
+    "sass-modules",
+    "scss",
+    "scss-modules"
+  ]
+}
